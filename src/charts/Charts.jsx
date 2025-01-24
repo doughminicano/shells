@@ -16,7 +16,7 @@ export default function Charts() {
       </motion.h1>
 
       {/* Charts Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 space-x-10">
+      <div className="grid lg:grid-cols-2 max-sm:grid-cols-1 gap-6 space-x-10 max-sm:overflow-auto max-sm:flex">
         {/* Chart 1 */}
         <div className="flex items-center justify-center">
           <CCharts className="z-0 backdrop-blur-sm" />

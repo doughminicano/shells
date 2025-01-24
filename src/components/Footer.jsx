@@ -12,12 +12,13 @@ export default function Footer() {
       {/* Top Section: Social Media Links */}
       <div className="flex justify-center space-x-20 max-sm:space-x-12 mb-4">
         <a
-          href="https://github.com/doughminicano"
+          href="https://github.com/doughminicano/shells.git"
           target="_blank"
           rel="noopener noreferrer"
           className="text-black hover:text-gray-700 text-3xl"
         >
           <FaGithub className="hover:scale-150"/>
+          <span className="mt-0 text-xs font-thin">CODE</span>
         </a>
         <a
           href="https://www.facebook.com/doughminicano/"
